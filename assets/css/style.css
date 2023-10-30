@@ -1,0 +1,74 @@
+
+.div-main{
+  max-width: 100vw;
+  max-height: 100vh;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.div-header{
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(68, 155, 68);
+      width: 50%;
+      height: 4rem;
+  
+
+    
+}
+.div-header img{
+  width: 50px;
+  height: 50px;
+  margin-right: 50px;
+}
+.div-header h1{
+  font-size: 40px;
+  color: aliceblue;
+}
+.div-main-buttons{
+  max-width: 100vw;
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.div-buttons{
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  max-height: 100vh;
+  background-color: wheat;
+
+}
+.div-buttons button{
+  width: 100%;
+  margin: 1px;
+  background-color: aliceblue;
+  color: brown;
+  cursor: pointer;
+}
+.div-buttons button:hover{
+background-color: aquamarine;
+}
+#display{
+  margin-top: 20px;
+  background-color: green;
+  font-size: 50px;
+  color: white;
+  padding: 20px;
+  border-radius: 30px;
+}
+#sorteio{
+  margin-top: 20px;
+  font-size: 50px;
+  color: black;
+  border-radius: 30px;
+}
+#sorteio button{
+  background-color: yellowgreen;
+  cursor: pointer;
+  color: aliceblue;
+}
