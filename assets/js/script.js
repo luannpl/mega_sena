@@ -30,6 +30,7 @@ buttons.forEach(function(button) {
     document.getElementById('display').innerHTML = `Números selecionados: ${selectedNumbers.join(', ')}`;
   });
 });
+
 function gerarNumeros(){
 let numeros = [];
 while(numeros.length < 6){
